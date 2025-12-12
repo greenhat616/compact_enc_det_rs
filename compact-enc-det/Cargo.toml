@@ -1,11 +1,21 @@
 [package]
 name = "compact-enc-det"
-version = "0.1.0"
+version.workspace = true
 edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+documentation.workspace = true
+keywords.workspace = true
+categories.workspace = true
+rust-version.workspace = true
+description = "Rust bindings for Compact Encoding Detection (CED) library - detect character encodings in text"
+readme = "README.md"
 
 [features]
 encoding_rs = ["dep:encoding_rs"]
 
 [dependencies]
-compact-enc-det-sys = { path = "../compact-enc-det-sys" }
+compact-enc-det-sys = { path = "../compact-enc-det-sys", version = "0.1" }
 encoding_rs = { version = "0.8", optional = true }

@@ -1,7 +1,18 @@
 [package]
 name = "compact-enc-det-sys"
-version = "0.1.0"
+version.workspace = true
 edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+documentation.workspace = true
+keywords.workspace = true
+categories.workspace = true
+rust-version.workspace = true
+description = "Low-level FFI bindings to the Compact Encoding Detection (CED) C++ library"
+readme = "README.md"
+links = "compact_enc_det"
 
 [dependencies]
 cxx = "1.0"

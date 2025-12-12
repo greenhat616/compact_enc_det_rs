@@ -4,3 +4,12 @@ members = ["compact-enc-det","compact-enc-det-sys"]
 
 [workspace.package]
 edition = "2024"
+version = "0.1.0"
+authors = ["a632079 <a632079@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/greenhat616/compact_enc_det_rs"
+homepage = "https://github.com/greenhat616/compact_enc_det_rs"
+documentation = "https://docs.rs/compact-enc-det"
+keywords = ["encoding", "detection", "charset", "text"]
+categories = ["encoding", "text-processing"]
+rust-version = "1.85"
