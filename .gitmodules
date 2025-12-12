@@ -1,3 +1,0 @@
-[submodule "compact-enc-det-sys/deps/compact_enc_det"]
-	path = compact-enc-det-sys/deps/compact_enc_det
-	url = https://github.com/google/compact_enc_det.git
