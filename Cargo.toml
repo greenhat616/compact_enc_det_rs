@@ -1,0 +1,6 @@
+[workspace]
+resolver = "3"
+members = ["compact-enc-det","compact-enc-det-sys"]
+
+[workspace.package]
+edition = "2024"

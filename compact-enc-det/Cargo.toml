@@ -1,0 +1,11 @@
+[package]
+name = "compact-enc-det"
+version = "0.1.0"
+edition.workspace = true
+
+[features]
+encoding_rs = ["dep:encoding_rs"]
+
+[dependencies]
+compact-enc-det-sys = { path = "../compact-enc-det-sys" }
+encoding_rs = { version = "0.8", optional = true }
