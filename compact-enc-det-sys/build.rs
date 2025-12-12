@@ -1,7 +1,7 @@
 use std::path::PathBuf;
 
 fn main() {
-    let ced = PathBuf::from("../libs/compact_enc_det");
+    let ced = PathBuf::from("deps/compact_enc_det");
 
     cxx_build::bridge("src/lib.rs")
         .file("src/ced_wrapper.cc")
